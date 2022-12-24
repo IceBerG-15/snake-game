@@ -6,7 +6,7 @@ class Score_board(Turtle):
     def __init__(self):
         super().__init__()
         self.score=0
-        with open('C:\Python310\codes\projects\snake game\highscore.txt') as file:
+        with open('highscore.txt') as file:
             self.high_score = int(file.read())
         self.hideturtle()
         self.penup()
